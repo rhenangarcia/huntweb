@@ -4,7 +4,7 @@
 
 Application developed in the **[Starter / ReactJS Course](https://rocketseat.com.br/starter)** by **[Rocketseat](https://rocketseat.com.br/)**.
 
-It consists of a frontend interface to expose the API built in the [huntapi project](https://rhenangarcia.github.io/huntapi/), displaying the digital products stored in the Mongo database.
+It consists of a frontend interface to expose the API built in the [huntapi project](https://rhenangarcia.github.io/huntapi), displaying the digital products stored in the Mongo database.
 
 ## 🌎 Demonstration
 To help visualize the application, a demonstration was set up using [Rocketseat's API](https://rocketseat-node.herokuapp.com/api/products) as backend: **[click here](https://rhenangarcia.github.io/huntweb/build)** to see it.
