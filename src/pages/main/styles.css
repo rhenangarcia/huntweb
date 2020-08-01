@@ -1,0 +1,79 @@
+/* padding left e right: evita que o "div" fique grudado na borda da tela */
+.product-list
+{
+  margin: 20px auto 0;
+  padding: 0 20px;
+  max-width: 700px;
+}
+
+.product-list article
+{
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-list article p
+{
+  margin-top: 5px;
+  font-size: 16px;
+  color: #999;
+  line-height: 24px;
+}
+
+/* transition: atrasa a transição de todos os elementos em 0.2s */
+.product-list article a
+{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background: none;
+  color: #da552f;
+  height: 42px;
+  border: 2px solid #da552f;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.product-list article a:hover
+{
+  background: #da552f;
+  color: #fff;
+}
+
+.product-list .actions
+{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* cursor: modifica o ponteiro do cursor quando estiver sobre o elemento */
+.product-list .actions button
+{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #da552f;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-list .actions button:hover
+{
+  opacity: 0.8;
+}
+
+.product-list .actions button[disabled]
+{
+  opacity: 0.4;
+  cursor: default;
+}
